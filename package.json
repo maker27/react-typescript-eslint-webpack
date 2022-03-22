@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "start": "webpack serve --config webpack.dev.config.ts",
     "build": "webpack --config webpack.prod.config.ts"
@@ -35,6 +36,7 @@
     "fork-ts-checker-webpack-plugin": "^6.0.8",
     "html-webpack-plugin": "^4.5.1",
     "mini-css-extract-plugin": "^2.1.0",
+    "prettier": "2.6.0",
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
     "style-loader": "^3.0.0",
